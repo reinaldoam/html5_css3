@@ -1,7 +1,9 @@
 body {
     background: #ccc;
     font-family: verdana;
-
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
 }
 #title, .subtitle, .post_title {
     color: blue;
@@ -32,7 +34,7 @@ a {
     background: #FFFF;
     padding: 15px;
     border: 3px solid #000;
-    margin-bottom: 10px;
+    margin-bottom: 1
     border-radius: 5px;
 }
 .post_content {
@@ -43,4 +45,15 @@ a {
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    color: blue;
+    text-decoration: none;
 }
